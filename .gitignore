@@ -1,0 +1,103 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# =====================================
+# Jupyter / Notebooks
+# =====================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =====================================
+# HuggingFace / Transformers
+# =====================================
+.cache/
+.huggingface/
+hf_cache/
+transformers_cache/
+
+# Trainer checkpoints
+checkpoint-*/
+trainer_state.json
+training_args.bin
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state.pth
+
+# =====================================
+# Model Weights (CRITICAL)
+# =====================================
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# LoRA adapters & merged models
+lora-adapters/
+temp-adapters/
+merged-model/
+output/
+llama-output/
+llama-merged/
+
+# =====================================
+# GGUF / llama.cpp
+# =====================================
+*.gguf
+llama.cpp/
+*.ggml
+*.q4*
+*.q5*
+*.q6*
+*.q8*
+
+# =====================================
+# Datasets (optional - if large)
+# =====================================
+*.jsonl
+*.parquet
+*.csv
+datasets/
+data/raw/
+
+# =====================================
+# Logs
+# =====================================
+logs/
+*.log
+runs/
+wandb/
+tensorboard/
+
+# =====================================
+# System Files
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# Secrets (VERY IMPORTANT)
+# =====================================
+.env
+.env.*
+*.key
+*.pem
+hf_token.txt
+secrets.json

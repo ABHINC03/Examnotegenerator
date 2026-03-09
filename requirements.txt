@@ -9,3 +9,4 @@ peft==0.10.0
 trl==0.8.6
 python-dotenv
 rich
+pyTelegramBotAPI

@@ -102,3 +102,7 @@ Thumbs.db
 hf_token.txt
 secrets.json
 dataset/
+llama-8b-merged-ultra/
+llama-output/
+llama.cpp/
+temp-adapters/
